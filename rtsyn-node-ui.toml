@@ -1,0 +1,20 @@
+name = "Adder"
+description = "Adds two f64 inputs and exposes multiplier controls."
+
+[[controls]]
+name = "left_multiplier"
+label = "Left multiplier"
+kind = "number"
+target = "param"
+param_id = 0
+value_type = "f64"
+default = "1.0"
+
+[[controls]]
+name = "right_multiplier"
+label = "Right multiplier"
+kind = "number"
+target = "param"
+param_id = 1
+value_type = "f64"
+default = "1.0"
